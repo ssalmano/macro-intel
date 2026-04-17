@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0a08;
+  --bg2: #111110;
+  --bg3: #1a1a17;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #e8e6df;
+  --text2: #8a8880;
+  --text3: #555450;
+  --accent: #c9b97a;
+  --accent2: #7a9c8a;
+  --red: #c47060;
+  --red-bg: rgba(196,112,96,0.1);
+  --green: #7a9c7a;
+  --green-bg: rgba(122,156,122,0.1);
+  --amber: #c9a860;
+  --amber-bg: rgba(201,168,96,0.1);
+  --blue: #6a8caa;
+  --blue-bg: rgba(106,140,170,0.1);
+  --gray-bg: rgba(255,255,255,0.04);
+}
+
+html, body { background: var(--bg); color: var(--text); font-family: 'DM Mono', monospace; min-height: 100vh; }
+
+::selection { background: rgba(201,185,122,0.2); }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
